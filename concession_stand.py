@@ -15,7 +15,7 @@ print("------------------")
 total = 0
 order = []
 while True:
-    item = input("Select an item (Q to quit): ").strip().lower()
+    item = input("Select an item (Q to quit): ")
     if item.strip().lower() == "q":
         break
     elif item in menu:
